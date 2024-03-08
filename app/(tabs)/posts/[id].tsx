@@ -3,13 +3,13 @@ import React from 'react'
 import { Stack, useLocalSearchParams } from 'expo-router'
 
 export default function Page() {
-    const {id} = useLocalSearchParams();
+  const { id } = useLocalSearchParams();
   return (
-    <View>
-        <Stack.Screen options={{
-            headerTitle: "Post Details "+id
-        }} />
-      <Text style={{fontSize: 30}}>Post {id}</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Stack.Screen options={{
+        headerTitle: `Detalhes do post: ${id}`
+      }} />
+      <Text style={{ fontSize: 30 }}>Post {id}</Text>
     </View>
   )
 }

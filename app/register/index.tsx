@@ -1,13 +1,13 @@
-import { View, Text, Button } from 'react-native'
-import React from 'react'
 import { Link } from 'expo-router'
+import React from 'react'
+import { Button, Text, View } from 'react-native'
 
 export default function Register() {
   return (
-    <View>
-      <Text>Register</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Tela de carregamento/registro/etc</Text>
       <Link href="/login" asChild>
-        <Button title="open login modal" />
+        <Button title="Abrir Login Modal" />
       </Link>
     </View>
   )

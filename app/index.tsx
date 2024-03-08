@@ -5,9 +5,9 @@ import { StatusBar } from 'expo-status-bar'
 
 export default function Page() {
   return (
-    <View style={{flex: 1, justifyContent:'center', alignItems: 'center'}}>
-        {/* <StatusBar style="light" /> */}
-      <Text>Home Page</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      {/* <StatusBar style="light" /> */}
+      <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Home</Text>
       <Link href="/register" asChild>
         <Button title="Open Register Page" />
       </Link>

@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Page() {
   return (
-    <View>
-      <Text style={{fontSize: 20}}>Not found!!!</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text style={{fontSize: 20}}>Página não encontrada!</Text>
     </View>
   )
 }
